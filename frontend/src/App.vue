@@ -1,10 +1,10 @@
 <template>
 <div id="app">
   <div class="header">
-    <h1>Ammon's Site</h1>
+    <h1>Ammon</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/timelog">Time Log</router-link>
     </div>
   </div>
   <div class="content">
@@ -21,7 +21,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  background: blue;
+  background: maroon;
   padding: 10px 100px;
   color: white;
 }
