@@ -7,7 +7,9 @@
     <button @click = calculateHours> End </button>
     <p></p>
     <div v-for="hours in allHours" :key="hours.id">
-      <h2>{{hours.hours}}</h2>
+      <h2>Hours: {{hours.hours}}</h2>
+      <p>Minutes: {{(hours.hours * 60).toPrecision(4)}}</p>
+      <hr>
     </div>
   </div>
 </template>
